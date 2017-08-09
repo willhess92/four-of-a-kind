@@ -1,0 +1,17 @@
+.root {
+    -fx-background-color: linear-gradient(to right, #314755, #26a0da);
+}
+
+.button {
+    -fx-background-color: #314755;
+    -fx-opacity: 0.9;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(255,255,255,0.8), 10, 0, 0, 0);
+}
+
+.button:hover {
+    -fx-background-color: #314755;
+    -fx-opacity: 1.0;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
